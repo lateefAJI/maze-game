@@ -1,0 +1,83 @@
+[
+            '£                             ',
+            '£                             ',
+            '£                    x£       ',
+            '£                     £       ',
+            '£                x    £       ',
+            '£                     £       ',
+            '£                 xxxx£       ',
+            '£  x nN eE sS wW  xxxx£    cC ',
+            '£  x ()x()x()x()  xxxx£    () ',
+            '!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!',
+          ],
+
+          pos(73, 15), score
+          26, 30) level
+          [
+             '£                                       £',
+             '£                                       £',
+             '£                                       £',
+             '£                                       £',
+             '£                                       £',
+             '£        @@@@@@              x x        £',
+             '£                        z x x x        £',
+             '£                        x x x x  x   cC£',
+             '£          z    z   z  x x x x x  x   ()£',
+             '!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!',
+           ],
+           [
+             '£                                       £',
+             '£                                     £',
+             '£                      ()               £',
+             '£                                       £',
+             '£                                       £',
+             '£                            x x        £',
+             '£                          x x x        £',
+             '£                        x x x x  x   -+£',
+             '£               z   z  x x x x x  x   ()£',
+             '!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!',
+           ],
+           [
+          '                                         ',
+          '£   xxxxxxxxxxxxxxxxxxxxxxxx     xx   xx£',
+          '£     xxxxxxxxxxxxxxxxxxxx           () £',
+          '£      xxxxxxxxxxxxxxxxx      xxxxxxxxxx£',
+          '£       xxxxxxxxxxxxxx      xxxxxxxxxxxx£',
+          '£        xxxxxxxxxxxxx     xxxxxxxxxxxxx£',
+          '£        xxxxxxxxxxxxxxx    xxxxxxxxxxxx£',
+          '£                         oOxxxxxxxxxxxx£',
+          '£                         ()xxxxxxxxxxxx£',
+          '!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!',
+           ],
+
+           [
+          'b   bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb',
+          'b                                       b',
+          'b                                       b',
+          'b                                       b',
+          'b    z z z z z z z z z z z z z z z z z zb',
+          '!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!',
+           ],
+
+xxxxxxxxxxxxxxxxxxxxxxxxxxxx
+    [
+               '      $$$$$$$$$$$$    ',
+               '      xxxxxxxxxxxx    ',
+               '                      ',
+               '    $$$$$$$$$$$$$$    ',
+               '    xxxxxxxxxxxxxx    ',
+               '                      ',
+               '    $$$$$$$$$$$$$$    ',
+               '    xxxxxxxxxxxxxx    ',
+               '                    Vv',
+               '                    ()',
+               '!!!!!!!!!!!!!!!!!!!!!!',
+          ],
+
+
+          if (obj.is('coin-surprise')) {
+         gameLevel.spawn('$', obj.gridPos.sub(0, 1))
+         destroy(obj)
+         gameLevel.spawn('}', obj.gridPos.sub(0,0))
+       }
+
